@@ -1,5 +1,5 @@
 ---
-title: FlameFy JS API Documentation
+title: FlameFy API Documentation Version 1.0 (c) 2016
 
 language_tabs:
   - javascript
@@ -12,7 +12,8 @@ search: true
 
 # Introduction
 
-Welcome to FlameFy JS API
+Welcome to FlameFy API. 
+This documentation introduces the different ways to send data to FlameFy and manage audiences.
 
 # Getting Started
 
