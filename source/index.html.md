@@ -158,7 +158,21 @@ FlmTag.add('BigData')
 Call with one parameter will use the stored cookie to identify the audience
 </aside>
 
-## Create an event in a Story
+# Managing Events
+## Logging an event in a Story
+During the execution of a Story, different events can be performed and then logged by the system.
+Available events differ according to the current step.
+
+For example, if a Step includes a video player, then clicks on 'play', 'pause', etc... will be logged in.
+Events can also be custom ones. Any event_code sent to the API which is not known will be treated as a custom new one.
+
+To log an Event, you must provide the the event_code, the running scenario_id and the current stepPosition.
+
+Available Events are:
+
+- For audio, video, picture player: video_play video_pause, video_finished, chromecast_on chromecast_off
+   airplay_on
+- For generic player : social_share
 
 ```javascript
 FlmEvent.create('anEventCode', storyId, stepPosition, { flm_api_token: currentAudience.apiToken })
