@@ -27,9 +27,8 @@ This documentation introduces the different ways to send data to FlameFy and man
     if (c) { e.addEventListener('load', function (e) { c(null, e); }, false); }
     y.parentNode.insertBefore(e,y)
   })(document,'script','https://cdn.flamefy.com/js/flm-api/flm-js-1-0-0.js', function () {
-    initFlmJs('CHANGE_ME', 'http://flamefy.dev:3000/api')
+    initFlmJs('CHANGE_ME')
     // First params is the API key for the application
-    // last params is optional, default to http://api.flamefy.com/api
   });
 </script>
 ```
